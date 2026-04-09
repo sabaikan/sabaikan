@@ -50,12 +50,12 @@
     .text-subtitle { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; fill: #00ffcc; text-anchor: middle; animation: bob 4s ease-in-out infinite; animation-delay: 0.2s; letter-spacing: 2px; }
     
     @keyframes swimInPlace {
-      0%, 100% { transform: rotate(-5deg) scaleX(1) translateY(0); }
-      50% { transform: rotate(5deg) scaleX(0.8) translateY(-2px); }
+      0%, 100% { transform: rotate(-8deg) translateY(0px) translateX(-2px); }
+      50% { transform: rotate(8deg) translateY(2px) translateX(2px); }
     }
     .jumping-fish {
       font-size: 38px;
-      animation: swimInPlace 0.7s ease-in-out infinite;
+      animation: swimInPlace 0.6s ease-in-out infinite;
       transform-origin: 580px 140px;
     }
   </style>
