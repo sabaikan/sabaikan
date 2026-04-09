@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <div align="center">
-  <img src="./header.svg?v=2" width="100%" alt="Header with animated fish and waves">
+  <img src="./header.svg?v=3" width="100%" alt="Header with animated fish and waves">
 </div>
 
 ---
