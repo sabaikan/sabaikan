@@ -98,19 +98,13 @@
 
 <br>
 
-<details>
-  <summary><b>🐍 Ingin animasi ular (Snake Graph)? Klik di sini untuk panduannya!</b></summary>
-  <br>
-  <blockquote>
-    Untuk membuat animasi ular (GitHub Snake) yang memakan kontribusi riwayat hijau Anda:
-    <ol>
-      <li>Buat folder <code>.github/workflows</code> di repositori ini.</li>
-      <li>Tambahkan file bernama <code>snake.yml</code> dengan skrip GitHub Actions (Anda bisa mencari <i>"snk github action"</i>).</li>
-      <li>Atur warnanya dengan palet laut (seperti biru tua, cyan, turquoise).</li>
-      <li>Tambahkan tag gambar di bawah baris ini untuk menampilkan <br><code>&lt;img src="dist/github-snake.svg" alt="github contribution grid snake animation"&gt;</code>.</li>
-    </ol>
-  </blockquote>
-</details>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabaikan/sabaikan/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabaikan/sabaikan/output/github-contribution-grid-snake.svg">
+    <img alt="Belut Laut Elektrik animasi GitHub" src="https://raw.githubusercontent.com/sabaikan/sabaikan/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</div>
 
 <br>
 
