@@ -22,13 +22,13 @@
     }
     @keyframes swimR {
       0% { transform: translateX(-100px) translateY(0px); }
-      50% { transform: translateX(450px) translateY(-20px); }
-      100% { transform: translateX(1000px) translateY(20px); }
+      50% { transform: translateX(450px) translateY(-5px); }
+      100% { transform: translateX(1000px) translateY(5px); }
     }
     @keyframes swimL {
       0% { transform: translateX(900px) scaleX(-1); }
-      50% { transform: translateX(350px) scaleX(-1) translateY(15px); }
-      100% { transform: translateX(-100px) scaleX(-1) translateY(-15px); }
+      50% { transform: translateX(350px) scaleX(-1) translateY(5px); }
+      100% { transform: translateX(-100px) scaleX(-1) translateY(-5px); }
     }
     @keyframes bob {
       0%, 100% { transform: translateY(0); }
@@ -39,12 +39,12 @@
     .b2 { r: 12; cx: 250; cy: 320; animation-duration: 12s; animation-delay: 4s; }
     .b3 { r: 4; cx: 400; cy: 380; animation-duration: 6s; animation-delay: 0s; }
     .b4 { r: 8; cx: 550; cy: 310; animation-duration: 10s; animation-delay: 2s; }
-    .b5 { r: 15; cx: 700; cy: 360; animation-duration: 15s; animation-delay: 5s; }
+    .b5 { r: 15; cx: 700; cy: 360; animation-duration: 15s; animation-delay: -5s; }
     .b6 { r: 5; cx: 80; cy: 340; animation-duration: 7s; animation-delay: 3s; }
     
     .fish-r { animation: swimR 20s linear infinite; fill: #00ffcc; opacity: 0.8; }
-    .fish-r2 { animation: swimR 25s linear infinite; animation-delay: 10s; fill: #00ccff; opacity: 0.6; }
-    .fish-l { animation: swimL 18s linear infinite; animation-delay: 5s; fill: #ff6699; opacity: 0.7; }
+    .fish-r2 { animation: swimR 25s linear infinite; animation-delay: -10s; fill: #00ccff; opacity: 0.6; }
+    .fish-l { animation: swimL 18s linear infinite; animation-delay: -5s; fill: #ff6699; opacity: 0.7; }
     
     .text-title { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 42px; font-weight: bold; fill: #ffffff; text-anchor: middle; animation: bob 4s ease-in-out infinite; filter: url(#glow); }
     .text-subtitle { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; fill: #00ffcc; text-anchor: middle; animation: bob 4s ease-in-out infinite; animation-delay: 0.2s; letter-spacing: 2px; }
