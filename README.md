@@ -8,27 +8,27 @@
 <br>
 
 <div align="center">
-  <h3>🌊 Selamat Datang di Samudra Kode Saya 🌊</h3>
+  <h3>🌊 Welcome to My Ocean of Code 🌊</h3>
   <p><i>"Navigating the deep waters of software development with elegant and robust code."</i></p>
 </div>
 
 <br>
 
-## 🦑 Tentang Saya
+## 🦑 About Me
 <div align="left">
   <table>
     <tr>
       <td width="50%">
         <ul>
-          <li>🐠 <b>Fokus Utama:</b> Full-Stack Web & Android Development</li>
-          <li>🐋 <b>Saat ini sedang belajar:</b> Advanced System Architecture & UI/UX</li>
-          <li>🐙 <b>Hobi Lain:</b> Mengarungi lautan teknologi baru dan menyelam ke dalam dokumentasi framework.</li>
-          <li>🦈 <b>Bagaimana menghubungi saya:</b> Buka saja issue di salah satu repository saya!</li>
+          <li>🐠 <b>Main Focus:</b> Web & Android Development</li>
+          <li>🐋 <b>Currently Learning:</b> Advanced System Architecture & UI/UX</li>
+          <li>🐙 <b>Interests:</b> Cruising through new techs and diving deep into framework documentations.</li>
+          <li>🦈 <b>How to reach me:</b> Just open an issue in any of my repositories!</li>
         </ul>
       </td>
       <td width="50%" align="center">
-        <b>💡 Ide Harian:</b><br><br>
-        <i>Kode ibarat terumbu karang; ia membutuhkan pondasi yang kuat agar ekosistem di atasnya bisa hidup dengan indah.</i>
+        <b>💡 Daily Thought:</b><br><br>
+        <i>Code is like a coral reef; it needs a strong foundation for the ecosystem above it to thrive beautifully.</i>
       </td>
     </tr>
   </table>
@@ -67,7 +67,7 @@
       <td align="center" width="50%">
         <!-- Trophies -->
         <a href="https://github.com/ryo-ma/github-profile-trophy">
-          <img src="https://github-profile-trophy.vercel.app/?username=sabaikan&theme=darkhub&no-frame=true&no-bg=true&margin-w=15" alt="sabaikan's trophies" />
+          <img src="https://github-profile-trophy.vercel.app/?username=sabaikan&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="sabaikan's trophies" />
         </a>
       </td>
       <td align="center" width="50%">
@@ -115,4 +115,4 @@
 
 <br>
 
-<p align="center"><i>Dibuat dengan 💻 dan 🤿 di lautan terbuka.</i></p>
+<p align="center"><i>Crafted with 💻 and 🤿 in the open sea.</i></p>
