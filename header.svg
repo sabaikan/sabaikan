@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001830" />
+      <stop offset="100%" stop-color="#000714" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    @keyframes float {
+      0% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.8; }
+      100% { transform: translateY(-300px) rotate(360deg); opacity: 0; }
+    }
+    @keyframes swimR {
+      0% { transform: translateX(-100px) translateY(0px); }
+      50% { transform: translateX(450px) translateY(-20px); }
+      100% { transform: translateX(1000px) translateY(20px); }
+    }
+    @keyframes swimL {
+      0% { transform: translateX(900px) scaleX(-1); }
+      50% { transform: translateX(350px) scaleX(-1) translateY(15px); }
+      100% { transform: translateX(-100px) scaleX(-1) translateY(-15px); }
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .bubble { fill: rgba(0, 255, 204, 0.3); animation: float linear infinite; }
+    .b1 { r: 6; cx: 100; cy: 350; animation-duration: 8s; animation-delay: 1s; }
+    .b2 { r: 12; cx: 250; cy: 320; animation-duration: 12s; animation-delay: 4s; }
+    .b3 { r: 4; cx: 400; cy: 380; animation-duration: 6s; animation-delay: 0s; }
+    .b4 { r: 8; cx: 550; cy: 310; animation-duration: 10s; animation-delay: 2s; }
+    .b5 { r: 15; cx: 700; cy: 360; animation-duration: 15s; animation-delay: 5s; }
+    .b6 { r: 5; cx: 80; cy: 340; animation-duration: 7s; animation-delay: 3s; }
+    
+    .fish-r { animation: swimR 20s linear infinite; fill: #00ffcc; opacity: 0.8; }
+    .fish-r2 { animation: swimR 25s linear infinite; animation-delay: 10s; fill: #00ccff; opacity: 0.6; }
+    .fish-l { animation: swimL 18s linear infinite; animation-delay: 5s; fill: #ff6699; opacity: 0.7; }
+    
+    .text-title { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 42px; font-weight: bold; fill: #ffffff; text-anchor: middle; animation: bob 4s ease-in-out infinite; filter: url(#glow); }
+    .text-subtitle { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; fill: #00ffcc; text-anchor: middle; animation: bob 4s ease-in-out infinite; animation-delay: 0.2s; letter-spacing: 2px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="300" fill="url(#bg)" />
+
+  <!-- Bubbles -->
+  <circle class="bubble b1" />
+  <circle class="bubble b2" />
+  <circle class="bubble b3" />
+  <circle class="bubble b4" />
+  <circle class="bubble b5" />
+  <circle class="bubble b6" />
+
+  <!-- Fishes (Using basic SVG paths to represent minimal fish shapes) -->
+  <g class="fish-r" transform="translate(0, 80)">
+    <path d="M0,10 Q10,0 20,5 Q30,10 40,10 Q30,15 20,15 Q10,10 0,10 Z M-10,0 L0,10 L-10,20 Z" />
+  </g>
+  <g class="fish-r2" transform="translate(0, 220)">
+    <path d="M0,8 Q8,0 16,4 Q24,8 32,8 Q24,12 16,12 Q8,8 0,8 Z M-8,0 L0,8 L-8,16 Z" />
+  </g>
+  <g class="fish-l" transform="translate(0, 150)">
+    <path d="M0,12 Q12,0 24,6 Q36,12 48,12 Q36,18 24,18 Q12,12 0,12 Z M-12,0 L0,12 L-12,24 Z" />
+  </g>
+
+  <!-- Seaweed silhouettes at the bottom -->
+  <path d="M 50,300 Q 60,250 40,200 Q 70,250 50,300 Z" fill="#003366" opacity="0.6"/>
+  <path d="M 120,300 Q 110,260 130,220 Q 100,260 120,300 Z" fill="#002244" opacity="0.8"/>
+  <path d="M 680,300 Q 690,230 670,180 Q 710,230 680,300 Z" fill="#003366" opacity="0.7"/>
+  <path d="M 750,300 Q 730,250 760,210 Q 720,250 750,300 Z" fill="#001122" opacity="0.9"/>
+
+  <!-- Center Text -->
+  <text x="400" y="140" class="text-title">Hi, I'm Sabaikan 🌊</text>
+  <text x="400" y="180" class="text-subtitle">FULL-STACK DEVELOPER | OCEAN OF CODE</text>
+  
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="800" height="100">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001830" stop-opacity="0" />
+      <stop offset="30%" stop-color="#001830" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#000714" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes wave {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-800px); }
+    }
+    .wave {
+      animation: wave 15s linear infinite;
+      fill: url(#waveGrad);
+    }
+    .wave2 {
+      animation: wave 10s linear infinite;
+      fill: rgba(0, 255, 204, 0.1);
+    }
+    .wave3 {
+      animation: wave 20s linear infinite;
+      fill: rgba(0, 153, 255, 0.15);
+    }
+  </style>
+  
+  <g class="wave3">
+    <path d="M0,40 C200,20 400,60 600,40 C800,20 1000,60 1200,40 C1400,20 1600,60 1600,40 L1600,100 L0,100 Z" />
+  </g>
+  <g class="wave2">
+    <path d="M0,60 C200,80 400,40 600,60 C800,80 1000,40 1200,60 C1400,80 1600,40 1600,60 L1600,100 L0,100 Z" />
+  </g>
+  <g class="wave">
+    <path d="M0,50 C200,70 400,30 600,50 C800,70 1000,30 1200,50 C1400,70 1600,30 1600,50 L1600,100 L0,100 Z" />
+  </g>
+</svg>
