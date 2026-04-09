@@ -64,16 +64,10 @@
 <div align="center">
   <table border="0">
     <tr>
-      <td align="center" width="50%">
-        <!-- Trophies -->
-        <a href="https://github.com/ryo-ma/github-profile-trophy">
-          <img src="https://github-profile-trophy.vercel.app/?username=sabaikan&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="sabaikan's trophies" />
-        </a>
-      </td>
-      <td align="center" width="50%">
+      <td align="center" colspan="2">
         <!-- Top Langs -->
         <a href="https://github.com/anuraghazra/github-readme-stats">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabaikan&layout=compact&title_color=00ffcc&text_color=99ccff&bg_color=000714&hide_border=true&icon_color=00ffff" width="100%" alt="sabaikan's top languages"/>
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sabaikan&layout=compact&title_color=00ffcc&text_color=99ccff&bg_color=000714&hide_border=true&icon_color=00ffff" width="100%" alt="sabaikan's top languages"/>
         </a>
       </td>
     </tr>
@@ -81,7 +75,7 @@
       <td align="center" colspan="2">
         <!-- Main Stats -->
         <a href="https://github.com/anuraghazra/github-readme-stats">
-          <img src="https://github-readme-stats.vercel.app/api?username=sabaikan&show_icons=true&title_color=00ffcc&icon_color=00ffff&text_color=99ccff&bg_color=000714&hide_border=true" width="100%" alt="sabaikan's stats" />
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=sabaikan&show_icons=true&title_color=00ffcc&icon_color=00ffff&text_color=99ccff&bg_color=000714&hide_border=true" width="100%" alt="sabaikan's stats" />
         </a>
       </td>
     </tr>
